@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, world!")
+	for _, r := range "가갛힣" {
+		fmt.Println(string(r), r)
+	}
 }
